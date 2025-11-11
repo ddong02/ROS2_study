@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target pub1a[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub1a.dir/src/pub1a.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pub1a[0m
+[100%] Built target pub1a
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/lib/pub1a/pub1a
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/ament_index/resource_index/package_run_dependencies/pub1a
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/ament_index/resource_index/parent_prefix_path/pub1a
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/environment/path.sh
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/environment/path.dsv
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/local_setup.bash
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/local_setup.sh
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/local_setup.zsh
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/local_setup.dsv
+-- Symlinking: /home/eogus/ros2_ws/install/pub1a/share/pub1a/package.dsv
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/ament_index/resource_index/packages/pub1a
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/cmake/pub1aConfig.cmake
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/cmake/pub1aConfig-version.cmake
+-- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1a/share/pub1a/package.xml

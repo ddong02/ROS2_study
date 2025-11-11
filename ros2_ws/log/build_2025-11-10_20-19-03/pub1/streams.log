@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/eogus/ros2_ws/build/pub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/pub1 -- -j8 -l8
+[0.050s] [35m[1mScanning dependencies of target pub1[0m
+[0.254s] [ 50%] [32mBuilding CXX object CMakeFiles/pub1.dir/src/pub1.cpp.o[0m
+[1.592s] [100%] [32m[1mLinking CXX executable pub1[0m
+[1.690s] [100%] Built target pub1
+[1.697s] Invoked command in '/home/eogus/ros2_ws/build/pub1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/pub1 -- -j8 -l8
+[1.719s] Invoking command in '/home/eogus/ros2_ws/build/pub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/pub1
+[1.724s] -- Install configuration: ""
+[1.725s] -- Execute custom install script
+[1.726s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/lib/pub1/pub1
+[1.727s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/ament_index/resource_index/package_run_dependencies/pub1
+[1.728s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/ament_index/resource_index/parent_prefix_path/pub1
+[1.728s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/environment/ament_prefix_path.sh
+[1.729s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/environment/ament_prefix_path.dsv
+[1.729s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/environment/path.sh
+[1.730s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/environment/path.dsv
+[1.731s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/local_setup.bash
+[1.731s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/local_setup.sh
+[1.731s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/local_setup.zsh
+[1.732s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/local_setup.dsv
+[1.733s] -- Symlinking: /home/eogus/ros2_ws/install/pub1/share/pub1/package.dsv
+[1.739s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/ament_index/resource_index/packages/pub1
+[1.739s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/cmake/pub1Config.cmake
+[1.740s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/cmake/pub1Config-version.cmake
+[1.741s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub1/share/pub1/package.xml
+[1.744s] Invoked command in '/home/eogus/ros2_ws/build/pub1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/pub1

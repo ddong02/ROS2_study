@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/eogus/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/my_package -- -j8 -l8
+[0.055s] [35m[1mScanning dependencies of target my_pkg[0m
+[0.257s] [ 50%] [32mBuilding CXX object CMakeFiles/my_pkg.dir/src/my_pkg.cpp.o[0m
+[1.654s] [100%] [32m[1mLinking CXX executable my_pkg[0m
+[1.767s] [100%] Built target my_pkg
+[1.773s] Invoked command in '/home/eogus/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/my_package -- -j8 -l8
+[1.795s] Invoking command in '/home/eogus/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/my_package
+[1.801s] -- Install configuration: ""
+[1.802s] -- Execute custom install script
+[1.802s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/lib/my_package/my_pkg
+[1.803s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.803s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.804s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.804s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.804s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[1.805s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[1.805s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[1.806s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[1.806s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[1.806s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[1.807s] -- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/package.dsv
+[1.813s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.814s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.814s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.816s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/my_package/share/my_package/package.xml
+[1.817s] Invoked command in '/home/eogus/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/my_package

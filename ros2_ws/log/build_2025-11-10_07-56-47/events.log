@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000185] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000253] (-) JobUnselected: {'identifier': 'pub1'}
+[0.000352] (-) EventReactorShutdown: {}

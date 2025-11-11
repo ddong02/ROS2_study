@@ -1,0 +1,1 @@
+/home/eogus/ros2_ws/build/pub1a/ament_cmake_core/pub1aConfig-version.cmake

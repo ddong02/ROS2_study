@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target my_pkg[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_pkg.dir/src/my_pkg.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_pkg[0m
+[100%] Built target my_pkg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/lib/my_package/my_pkg
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/environment/path.sh
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/local_setup.bash
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/local_setup.sh
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/package.dsv
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+-- Symlinking: /home/eogus/ros2_ws/install/my_package/share/my_package/package.xml
