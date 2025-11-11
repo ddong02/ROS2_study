@@ -1,0 +1,67 @@
+[0.018s] Invoking command in '/home/eogus/ros2_ws/build/pub2b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/eogus/ros2_ws/src/pub2b -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eogus/ros2_ws/install/pub2b
+[0.069s] -- The C compiler identification is GNU 9.4.0
+[0.120s] -- The CXX compiler identification is GNU 9.4.0
+[0.127s] -- Check for working C compiler: /usr/bin/cc
+[0.193s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.194s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.271s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.341s] -- Detecting CXX compiler ABI info
+[0.413s] -- Detecting CXX compiler ABI info - done
+[0.423s] -- Detecting CXX compile features
+[0.423s] -- Detecting CXX compile features - done
+[0.434s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.465s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.551s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.679s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.789s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.916s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.946s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.061s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.157s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.160s] -- Looking for pthread.h
+[1.223s] -- Looking for pthread.h - found
+[1.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.288s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.288s] -- Looking for pthread_create in pthreads
+[1.344s] -- Looking for pthread_create in pthreads - not found
+[1.344s] -- Looking for pthread_create in pthread
+[1.403s] -- Looking for pthread_create in pthread - found
+[1.407s] -- Found Threads: TRUE  
+[1.578s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.650s] -- Configuring done
+[1.670s] -- Generating done
+[1.679s] -- Build files have been written to: /home/eogus/ros2_ws/build/pub2b
+[1.682s] Invoked command in '/home/eogus/ros2_ws/build/pub2b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/eogus/ros2_ws/src/pub2b -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eogus/ros2_ws/install/pub2b
+[1.684s] Invoking command in '/home/eogus/ros2_ws/build/pub2b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/pub2b -- -j8 -l8
+[1.711s] [35m[1mScanning dependencies of target pub2b[0m
+[1.844s] [ 50%] [32mBuilding CXX object CMakeFiles/pub2b.dir/src/pub2b.cpp.o[0m
+[3.366s] [100%] [32m[1mLinking CXX executable pub2b[0m
+[3.467s] [100%] Built target pub2b
+[3.475s] Invoked command in '/home/eogus/ros2_ws/build/pub2b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/pub2b -- -j8 -l8
+[3.500s] Invoking command in '/home/eogus/ros2_ws/build/pub2b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/pub2b
+[3.505s] -- Install configuration: ""
+[3.505s] -- Execute custom install script
+[3.507s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/lib/pub2b/pub2b
+[3.513s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/ament_index/resource_index/package_run_dependencies/pub2b
+[3.519s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/ament_index/resource_index/parent_prefix_path/pub2b
+[3.526s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/environment/ament_prefix_path.sh
+[3.532s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/environment/ament_prefix_path.dsv
+[3.538s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/environment/path.sh
+[3.543s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/environment/path.dsv
+[3.550s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/local_setup.bash
+[3.555s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/local_setup.sh
+[3.560s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/local_setup.zsh
+[3.566s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/local_setup.dsv
+[3.571s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/package.dsv
+[3.578s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/ament_index/resource_index/packages/pub2b
+[3.585s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/cmake/pub2bConfig.cmake
+[3.591s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/cmake/pub2bConfig-version.cmake
+[3.597s] -- Symlinking: /home/eogus/ros2_ws/install/pub2b/share/pub2b/package.xml
+[3.604s] Invoked command in '/home/eogus/ros2_ws/build/pub2b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/pub2b

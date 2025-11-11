@@ -1,0 +1,6 @@
+Invoking command in '/home/eogus/ros2_ws/build/pub2a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/eogus/ros2_ws/src/pub2a -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eogus/ros2_ws/install/pub2a
+Invoked command in '/home/eogus/ros2_ws/build/pub2a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/eogus/ros2_ws/src/pub2a -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eogus/ros2_ws/install/pub2a
+Invoking command in '/home/eogus/ros2_ws/build/pub2a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/pub2a -- -j8 -l8
+Invoked command in '/home/eogus/ros2_ws/build/pub2a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/pub2a -- -j8 -l8
+Invoking command in '/home/eogus/ros2_ws/build/pub2a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/pub2a
+Invoked command in '/home/eogus/ros2_ws/build/pub2a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/pub2a

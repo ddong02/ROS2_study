@@ -1,0 +1,16 @@
+/home/eogus/ros2_ws/install/pub2a/lib/pub2a/pub2a
+/home/eogus/ros2_ws/install/pub2a/share/ament_index/resource_index/package_run_dependencies/pub2a
+/home/eogus/ros2_ws/install/pub2a/share/ament_index/resource_index/parent_prefix_path/pub2a
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/environment/ament_prefix_path.sh
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/environment/ament_prefix_path.dsv
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/environment/path.sh
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/environment/path.dsv
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/local_setup.bash
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/local_setup.sh
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/local_setup.zsh
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/local_setup.dsv
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/package.dsv
+/home/eogus/ros2_ws/install/pub2a/share/ament_index/resource_index/packages/pub2a
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/cmake/pub2aConfig.cmake
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/cmake/pub2aConfig-version.cmake
+/home/eogus/ros2_ws/install/pub2a/share/pub2a/package.xml

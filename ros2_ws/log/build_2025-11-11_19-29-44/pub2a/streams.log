@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/eogus/ros2_ws/build/pub2a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/pub2a -- -j8 -l8
+[0.038s] [35m[1mScanning dependencies of target pub2a[0m
+[0.225s] [ 50%] [32mBuilding CXX object CMakeFiles/pub2a.dir/src/pub2a.cpp.o[0m
+[1.527s] [100%] [32m[1mLinking CXX executable pub2a[0m
+[1.623s] [100%] Built target pub2a
+[1.630s] Invoked command in '/home/eogus/ros2_ws/build/pub2a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/pub2a -- -j8 -l8
+[1.651s] Invoking command in '/home/eogus/ros2_ws/build/pub2a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/pub2a
+[1.657s] -- Install configuration: ""
+[1.657s] -- Execute custom install script
+[1.658s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/lib/pub2a/pub2a
+[1.659s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/ament_index/resource_index/package_run_dependencies/pub2a
+[1.660s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/ament_index/resource_index/parent_prefix_path/pub2a
+[1.660s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/environment/ament_prefix_path.sh
+[1.661s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/environment/ament_prefix_path.dsv
+[1.661s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/environment/path.sh
+[1.661s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/environment/path.dsv
+[1.662s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/local_setup.bash
+[1.662s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/local_setup.sh
+[1.662s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/local_setup.zsh
+[1.663s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/local_setup.dsv
+[1.663s] -- Symlinking: /home/eogus/ros2_ws/install/pub2a/share/pub2a/package.dsv
+[1.670s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/ament_index/resource_index/packages/pub2a
+[1.670s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/cmake/pub2aConfig.cmake
+[1.671s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/cmake/pub2aConfig-version.cmake
+[1.672s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/pub2a/share/pub2a/package.xml
+[1.676s] Invoked command in '/home/eogus/ros2_ws/build/pub2a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/pub2a
