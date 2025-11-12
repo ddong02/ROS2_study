@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/eogus/ros2_ws/build/psub1a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/psub1a -- -j8 -l8
+[0.042s] [35m[1mScanning dependencies of target sub[0m
+[0.043s] [35m[1mScanning dependencies of target pub[0m
+[0.270s] [ 25%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[0.291s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[1.755s] [ 75%] [32m[1mLinking CXX executable pub[0m
+[1.865s] [ 75%] Built target pub
+[2.473s] [100%] [32m[1mLinking CXX executable sub[0m
+[2.623s] [100%] Built target sub
+[2.631s] Invoked command in '/home/eogus/ros2_ws/build/psub1a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/psub1a -- -j8 -l8
+[2.653s] Invoking command in '/home/eogus/ros2_ws/build/psub1a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/psub1a
+[2.658s] -- Install configuration: ""
+[2.659s] -- Execute custom install script
+[2.660s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/lib/psub1a/pub
+[2.660s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/lib/psub1a/sub
+[2.661s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/ament_index/resource_index/package_run_dependencies/psub1a
+[2.661s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/ament_index/resource_index/parent_prefix_path/psub1a
+[2.662s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/environment/ament_prefix_path.sh
+[2.662s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/environment/ament_prefix_path.dsv
+[2.663s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/environment/path.sh
+[2.663s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/environment/path.dsv
+[2.663s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/local_setup.bash
+[2.664s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/local_setup.sh
+[2.664s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/local_setup.zsh
+[2.664s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/local_setup.dsv
+[2.665s] -- Symlinking: /home/eogus/ros2_ws/install/psub1a/share/psub1a/package.dsv
+[2.670s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/ament_index/resource_index/packages/psub1a
+[2.670s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/cmake/psub1aConfig.cmake
+[2.671s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/cmake/psub1aConfig-version.cmake
+[2.672s] -- Up-to-date symlink: /home/eogus/ros2_ws/install/psub1a/share/psub1a/package.xml
+[2.675s] Invoked command in '/home/eogus/ros2_ws/build/psub1a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/psub1a

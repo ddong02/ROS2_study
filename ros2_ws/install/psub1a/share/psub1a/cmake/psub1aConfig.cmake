@@ -1,0 +1,1 @@
+/home/eogus/ros2_ws/build/psub1a/ament_cmake_core/psub1aConfig.cmake

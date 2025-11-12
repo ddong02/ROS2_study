@@ -1,0 +1,4 @@
+Invoking command in '/home/eogus/ros2_ws/build/psub1b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/psub1b -- -j8 -l8
+Invoked command in '/home/eogus/ros2_ws/build/psub1b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/psub1b -- -j8 -l8
+Invoking command in '/home/eogus/ros2_ws/build/psub1b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/psub1b
+Invoked command in '/home/eogus/ros2_ws/build/psub1b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/psub1b

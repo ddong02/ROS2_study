@@ -1,0 +1,1 @@
+/home/eogus/ros2_ws/build/psub1b/ament_cmake_environment_hooks/local_setup.zsh

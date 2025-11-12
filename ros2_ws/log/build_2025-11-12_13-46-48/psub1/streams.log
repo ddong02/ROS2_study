@@ -1,0 +1,71 @@
+[0.016s] Invoking command in '/home/eogus/ros2_ws/build/psub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/eogus/ros2_ws/src/psub1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eogus/ros2_ws/install/psub1
+[0.065s] -- The C compiler identification is GNU 9.4.0
+[0.119s] -- The CXX compiler identification is GNU 9.4.0
+[0.128s] -- Check for working C compiler: /usr/bin/cc
+[0.199s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.200s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.269s] -- Detecting C compile features
+[0.270s] -- Detecting C compile features - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.338s] -- Detecting CXX compiler ABI info
+[0.405s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.428s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.459s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.459s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.541s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.677s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.835s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.941s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.974s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.191s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.192s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.194s] -- Looking for pthread.h
+[1.256s] -- Looking for pthread.h - found
+[1.257s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.319s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.319s] -- Looking for pthread_create in pthreads
+[1.375s] -- Looking for pthread_create in pthreads - not found
+[1.376s] -- Looking for pthread_create in pthread
+[1.438s] -- Looking for pthread_create in pthread - found
+[1.438s] -- Found Threads: TRUE  
+[1.658s] -- Configuring done
+[1.684s] -- Generating done
+[1.694s] -- Build files have been written to: /home/eogus/ros2_ws/build/psub1
+[1.695s] Invoked command in '/home/eogus/ros2_ws/build/psub1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/eogus/ros2_ws/src/psub1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eogus/ros2_ws/install/psub1
+[1.697s] Invoking command in '/home/eogus/ros2_ws/build/psub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/psub1 -- -j8 -l8
+[1.725s] [35m[1mScanning dependencies of target sub[0m
+[1.726s] [35m[1mScanning dependencies of target pub[0m
+[1.945s] [ 25%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[1.963s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[3.538s] [ 75%] [32m[1mLinking CXX executable pub[0m
+[3.640s] [ 75%] Built target pub
+[4.354s] [100%] [32m[1mLinking CXX executable sub[0m
+[4.507s] [100%] Built target sub
+[4.516s] Invoked command in '/home/eogus/ros2_ws/build/psub1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/eogus/ros2_ws/build/psub1 -- -j8 -l8
+[4.538s] Invoking command in '/home/eogus/ros2_ws/build/psub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/psub1
+[4.543s] -- Install configuration: ""
+[4.543s] -- Execute custom install script
+[4.545s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/lib/psub1/pub
+[4.550s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/lib/psub1/sub
+[4.556s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/ament_index/resource_index/package_run_dependencies/psub1
+[4.562s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/ament_index/resource_index/parent_prefix_path/psub1
+[4.568s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/environment/ament_prefix_path.sh
+[4.574s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/environment/ament_prefix_path.dsv
+[4.579s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/environment/path.sh
+[4.585s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/environment/path.dsv
+[4.590s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/local_setup.bash
+[4.595s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/local_setup.sh
+[4.601s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/local_setup.zsh
+[4.607s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/local_setup.dsv
+[4.613s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/package.dsv
+[4.619s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/ament_index/resource_index/packages/psub1
+[4.625s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/cmake/psub1Config.cmake
+[4.631s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/cmake/psub1Config-version.cmake
+[4.637s] -- Symlinking: /home/eogus/ros2_ws/install/psub1/share/psub1/package.xml
+[4.647s] Invoked command in '/home/eogus/ros2_ws/build/psub1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/eogus/ros2_ws/build/psub1

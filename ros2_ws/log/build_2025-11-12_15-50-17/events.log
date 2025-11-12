@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000345] (-) JobUnselected: {'identifier': 'psub1'}
+[0.000416] (-) JobUnselected: {'identifier': 'psub1a'}
+[0.000500] (-) JobUnselected: {'identifier': 'pub1'}
+[0.000993] (-) JobUnselected: {'identifier': 'pub1a'}
+[0.001042] (-) JobUnselected: {'identifier': 'pub1b'}
+[0.001080] (-) JobUnselected: {'identifier': 'pub2'}
+[0.001110] (-) JobUnselected: {'identifier': 'pub2a'}
+[0.001148] (-) JobUnselected: {'identifier': 'pub2b'}
+[0.001284] (psub1b) JobQueued: {'identifier': 'psub1b', 'dependencies': OrderedDict()}
+[0.001332] (psub1b) JobStarted: {'identifier': 'psub1b'}
+[0.017041] (psub1b) JobProgress: {'identifier': 'psub1b', 'progress': 'cmake'}
+[0.017750] (psub1b) Command: {'cmd': ['/usr/bin/cmake', '/home/eogus/ros2_ws/src/psub1b', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/eogus/ros2_ws/install/psub1b'], 'cwd': '/home/eogus/ros2_ws/build/psub1b', 'env': OrderedDict([('HOSTNAME', '1f3ce0451d23'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/eogus'), ('OLDPWD', '/home/eogus/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/eogus/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'docker.for.mac.host.internal:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/eogus/ros2_ws/install/pub2b:/home/eogus/ros2_ws/install/pub2a:/home/eogus/ros2_ws/install/pub2:/home/eogus/ros2_ws/install/pub1b:/home/eogus/ros2_ws/install/pub1a:/home/eogus/ros2_ws/install/pub1:/home/eogus/ros2_ws/install/psub1a:/home/eogus/ros2_ws/install/psub1:/home/eogus/ros2_ws/install/my_package:/opt/ros/foxy'), ('PWD', '/home/eogus/ros2_ws/build/psub1b'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Seoul'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/eogus/ros2_ws/install/pub2b:/home/eogus/ros2_ws/install/pub2a:/home/eogus/ros2_ws/install/pub2:/home/eogus/ros2_ws/install/pub1b:/home/eogus/ros2_ws/install/pub1a:/home/eogus/ros2_ws/install/pub1:/home/eogus/ros2_ws/install/psub1a:/home/eogus/ros2_ws/install/psub1:/home/eogus/ros2_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[0.094167] (psub1b) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.100167] (-) TimerEvent: {}
+[0.189585] (psub1b) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.199321] (psub1b) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.201193] (-) TimerEvent: {}
+[0.261644] (psub1b) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.263048] (psub1b) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.302249] (-) TimerEvent: {}
+[0.322171] (psub1b) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.331512] (psub1b) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332226] (psub1b) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.335459] (psub1b) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399672] (psub1b) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.400950] (psub1b) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.403157] (-) TimerEvent: {}
+[0.466002] (psub1b) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.476210] (psub1b) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.476982] (psub1b) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.494417] (psub1b) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.504208] (-) TimerEvent: {}
+[0.529588] (psub1b) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.530081] (psub1b) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.606192] (-) TimerEvent: {}
+[0.631546] (psub1b) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.707232] (-) TimerEvent: {}
+[0.790730] (psub1b) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.808422] (-) TimerEvent: {}
+[0.909196] (-) TimerEvent: {}
+[0.926069] (psub1b) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.958322] (psub1b) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.010191] (-) TimerEvent: {}
+[1.079086] (psub1b) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.111180] (-) TimerEvent: {}
+[1.113110] (psub1b) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.212192] (-) TimerEvent: {}
+[1.248161] (psub1b) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.313171] (-) TimerEvent: {}
+[1.364480] (psub1b) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.366503] (psub1b) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.369244] (psub1b) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.414315] (-) TimerEvent: {}
+[1.429481] (psub1b) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.431016] (psub1b) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.494200] (psub1b) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.494990] (psub1b) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.515427] (-) TimerEvent: {}
+[1.545623] (psub1b) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.546333] (psub1b) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.608548] (psub1b) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.609929] (psub1b) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.616163] (-) TimerEvent: {}
+[1.718241] (-) TimerEvent: {}
+[1.806486] (psub1b) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.819200] (-) TimerEvent: {}
+[1.920201] (-) TimerEvent: {}
+[1.957999] (psub1b) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.962486] (psub1b) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.962757] (psub1b) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.962875] (psub1b) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.966990] (psub1b) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.967251] (psub1b) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.969544] (psub1b) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.975106] (psub1b) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.975362] (psub1b) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.977114] (psub1b) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.987749] (psub1b) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.000932] (psub1b) StdoutLine: {'line': b'-- Generating done\n'}
+[2.006105] (psub1b) StdoutLine: {'line': b'-- Build files have been written to: /home/eogus/ros2_ws/build/psub1b\n'}
+[2.009592] (psub1b) CommandEnded: {'returncode': 0}
+[2.010113] (psub1b) JobProgress: {'identifier': 'psub1b', 'progress': 'build'}
+[2.010653] (psub1b) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eogus/ros2_ws/build/psub1b', '--', '-j8', '-l8'], 'cwd': '/home/eogus/ros2_ws/build/psub1b', 'env': OrderedDict([('HOSTNAME', '1f3ce0451d23'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/eogus'), ('OLDPWD', '/home/eogus/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/eogus/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'docker.for.mac.host.internal:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/eogus/ros2_ws/install/pub2b:/home/eogus/ros2_ws/install/pub2a:/home/eogus/ros2_ws/install/pub2:/home/eogus/ros2_ws/install/pub1b:/home/eogus/ros2_ws/install/pub1a:/home/eogus/ros2_ws/install/pub1:/home/eogus/ros2_ws/install/psub1a:/home/eogus/ros2_ws/install/psub1:/home/eogus/ros2_ws/install/my_package:/opt/ros/foxy'), ('PWD', '/home/eogus/ros2_ws/build/psub1b'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Seoul'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/eogus/ros2_ws/install/pub2b:/home/eogus/ros2_ws/install/pub2a:/home/eogus/ros2_ws/install/pub2:/home/eogus/ros2_ws/install/pub1b:/home/eogus/ros2_ws/install/pub1a:/home/eogus/ros2_ws/install/pub1:/home/eogus/ros2_ws/install/psub1a:/home/eogus/ros2_ws/install/psub1:/home/eogus/ros2_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[2.021382] (-) TimerEvent: {}
+[2.038814] (psub1b) CommandEnded: {'returncode': 0}
+[2.054597] (psub1b) JobProgress: {'identifier': 'psub1b', 'progress': 'install'}
+[2.062677] (psub1b) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eogus/ros2_ws/build/psub1b'], 'cwd': '/home/eogus/ros2_ws/build/psub1b', 'env': OrderedDict([('HOSTNAME', '1f3ce0451d23'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/eogus'), ('OLDPWD', '/home/eogus/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/eogus/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'docker.for.mac.host.internal:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/eogus/ros2_ws/install/pub2b:/home/eogus/ros2_ws/install/pub2a:/home/eogus/ros2_ws/install/pub2:/home/eogus/ros2_ws/install/pub1b:/home/eogus/ros2_ws/install/pub1a:/home/eogus/ros2_ws/install/pub1:/home/eogus/ros2_ws/install/psub1a:/home/eogus/ros2_ws/install/psub1:/home/eogus/ros2_ws/install/my_package:/opt/ros/foxy'), ('PWD', '/home/eogus/ros2_ws/build/psub1b'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Asia/Seoul'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/eogus/ros2_ws/install/pub2b:/home/eogus/ros2_ws/install/pub2a:/home/eogus/ros2_ws/install/pub2:/home/eogus/ros2_ws/install/pub1b:/home/eogus/ros2_ws/install/pub1a:/home/eogus/ros2_ws/install/pub1:/home/eogus/ros2_ws/install/psub1a:/home/eogus/ros2_ws/install/psub1:/home/eogus/ros2_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[2.068619] (psub1b) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.069583] (psub1b) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.070974] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/ament_index/resource_index/package_run_dependencies/psub1b\n'}
+[2.076797] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/ament_index/resource_index/parent_prefix_path/psub1b\n'}
+[2.082613] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/environment/ament_prefix_path.sh\n'}
+[2.088051] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/environment/ament_prefix_path.dsv\n'}
+[2.093309] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/environment/path.sh\n'}
+[2.098410] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/environment/path.dsv\n'}
+[2.104091] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/local_setup.bash\n'}
+[2.110072] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/local_setup.sh\n'}
+[2.115174] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/local_setup.zsh\n'}
+[2.120356] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/local_setup.dsv\n'}
+[2.122385] (-) TimerEvent: {}
+[2.125960] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/package.dsv\n'}
+[2.131385] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/ament_index/resource_index/packages/psub1b\n'}
+[2.136992] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/cmake/psub1bConfig.cmake\n'}
+[2.142737] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/cmake/psub1bConfig-version.cmake\n'}
+[2.148739] (psub1b) StdoutLine: {'line': b'-- Symlinking: /home/eogus/ros2_ws/install/psub1b/share/psub1b/package.xml\n'}
+[2.156338] (psub1b) CommandEnded: {'returncode': 0}
+[2.213047] (psub1b) JobEnded: {'identifier': 'psub1b', 'rc': 0}
+[2.214492] (-) EventReactorShutdown: {}

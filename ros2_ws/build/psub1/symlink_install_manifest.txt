@@ -1,0 +1,17 @@
+/home/eogus/ros2_ws/install/psub1/lib/psub1/pub
+/home/eogus/ros2_ws/install/psub1/lib/psub1/sub
+/home/eogus/ros2_ws/install/psub1/share/ament_index/resource_index/package_run_dependencies/psub1
+/home/eogus/ros2_ws/install/psub1/share/ament_index/resource_index/parent_prefix_path/psub1
+/home/eogus/ros2_ws/install/psub1/share/psub1/environment/ament_prefix_path.sh
+/home/eogus/ros2_ws/install/psub1/share/psub1/environment/ament_prefix_path.dsv
+/home/eogus/ros2_ws/install/psub1/share/psub1/environment/path.sh
+/home/eogus/ros2_ws/install/psub1/share/psub1/environment/path.dsv
+/home/eogus/ros2_ws/install/psub1/share/psub1/local_setup.bash
+/home/eogus/ros2_ws/install/psub1/share/psub1/local_setup.sh
+/home/eogus/ros2_ws/install/psub1/share/psub1/local_setup.zsh
+/home/eogus/ros2_ws/install/psub1/share/psub1/local_setup.dsv
+/home/eogus/ros2_ws/install/psub1/share/psub1/package.dsv
+/home/eogus/ros2_ws/install/psub1/share/ament_index/resource_index/packages/psub1
+/home/eogus/ros2_ws/install/psub1/share/psub1/cmake/psub1Config.cmake
+/home/eogus/ros2_ws/install/psub1/share/psub1/cmake/psub1Config-version.cmake
+/home/eogus/ros2_ws/install/psub1/share/psub1/package.xml
