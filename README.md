@@ -31,3 +31,19 @@ Linux에서 카메라는 **Video4Linux2 (V4L2)** 서브시스템을 통해 관�
 `$ ls -l /dev/video*`
 
 ### 
+
+## 12주차 - ROS2_카메라1
+
+### 1.
+
+<img width="718" height="189" alt="image" src="https://github.com/user-attachments/assets/53b0cd7a-2616-4080-83e3-f4ed7fcd1718" />
+
+<img width="657" height="89" alt="image" src="https://github.com/user-attachments/assets/43dddeb6-283d-4b12-9675-9d299f1168ba" />
+
+### 2.
+
+<img width="718" height="93" alt="image" src="https://github.com/user-attachments/assets/5b0b4717-77c4-4f01-9f76-8844cb696e41" />
+
+<img width="721" height="94" alt="image" src="https://github.com/user-attachments/assets/71bdab39-052f-4cfb-b780-63990bd4ce15" />
+
+## 12주차 - 
